@@ -1,5 +1,5 @@
 #!/bin/bash -x
-cat text.txt | grep [a-z]
+grep [a-z] text.txt
 if [ $? -eq 0 ]
 then
   echo Failure: Found lowercase letters
